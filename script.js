@@ -93,3 +93,11 @@ window.addEventListener('scroll', () => {
         shape.style.transform = `translateY(${scrolled * speed}px)`;
     });
 });
+
+// Scroll Progress Indicator
+window.addEventListener('scroll', () => {
+    const scrollProgress = document.querySelector('.scroll-progress');
+    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrolled = (window.scrollY / scrollHeight) * 100;
+    scrollProgress.style.width = scrolled + '%';
+});
