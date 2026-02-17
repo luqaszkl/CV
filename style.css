@@ -449,11 +449,10 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:fill;
     object-position: center 35%;
-    border: 3px solid var(--darker);
+    border: 2px solid var(--darker);
 }
-
 .photo-placeholder {
     width: 100%;
     height: 100%;
