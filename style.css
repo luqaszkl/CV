@@ -450,7 +450,7 @@ body {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 10%;
+    object-position: center top;
     border: 3px solid var(--darker);
 }
 
