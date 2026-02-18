@@ -1,554 +1,662 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Łukasz Klus - CV</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar" id="navbar">
-        <div class="scroll-progress"></div>
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#profil" class="nav-link">Profil</a></li>
-                <li><a href="#projekty" class="nav-link">Projekty</a></li>
-                <li><a href="#umiejetnosci" class="nav-link">Umiejętności</a></li>
-                <li><a href="#doswiadczenie" class="nav-link">Doświadczenie</a></li>
-                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+      <div class="scroll-progress"></div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span></span>
         </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#profil" class="nav-link">Profil</a></li>
+          <li><a href="#projekty" class="nav-link">Projekty</a></li>
+          <li><a href="#umiejetnosci" class="nav-link">Umiejętności</a></li>
+          <li><a href="#doswiadczenie" class="nav-link">Doświadczenie</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
 
     <div class="bg-animation">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-        <div class="shape shape-4"></div>
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
     </div>
 
     <div class="container" id="cv-content">
-        <div class="header" id="kontakt">
-            <div class="header-glow"></div>
-            <div class="header-content">
-                <div class="photo-wrapper">
-                    <div class="photo-frame">
-                        <div class="photo-glow"></div>
-                        <img src="Zdjecie1.jpg" alt="Łukasz Klus" onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'>ŁK</div>'">
-                    </div>
-                </div>
-                <div class="header-text">
-                    <h1 class="name">
-                        <span class="name-gradient">Łukasz Klus</span>
-                    </h1>
-                    <div class="title">Student Informatyki — Inżynieria Systemów Informatycznych</div>
-                    <div class="university">Uniwersytet Warmińsko-Mazurski</div>
-                    <div class="contact-info">
-                        <a href="mailto:lukaszklus2000@o2.pl" class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>lukaszklus2000@o2.pl</span>
-                        </a>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Olsztynek</span>
-                        </div>
-                        <a href="https://github.com/luqaszkl" target="_blank" rel="noopener noreferrer" class="contact-item">
-                            <i class="fab fa-github"></i>
-                            <span>github.com/luqaszkl</span>
-                        </a>
-                    </div>
-                </div>
+      <div class="header" id="kontakt">
+        <div class="header-glow"></div>
+        <div class="header-content">
+          <div class="photo-wrapper">
+            <div class="photo-frame">
+              <div class="photo-glow"></div>
+              <img
+                src="Zdjecie1.jpg"
+                alt="Łukasz Klus"
+                onerror="
+                  this.parentElement.innerHTML =
+                    '<div class=\'photo-placeholder\'>ŁK</div>'
+                "
+              />
             </div>
+          </div>
+          <div class="header-text">
+            <h1 class="name">
+              <span class="name-gradient">Łukasz Klus</span>
+            </h1>
+            <div class="title">
+              Student Informatyki — Inżynieria Systemów Informatycznych
+            </div>
+            <div class="university">Uniwersytet Warmińsko-Mazurski</div>
+            <div class="contact-info">
+              <a href="mailto:lukaszklus2000@o2.pl" class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>lukaszklus2000@o2.pl</span>
+              </a>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Olsztynek</span>
+              </div>
+              <a
+                href="https://github.com/luqaszkl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-item"
+              >
+                <i class="fab fa-github"></i>
+                <span>github.com/luqaszkl</span>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="content">
-            <div class="left-column">
-                <div class="section glass-card" id="profil">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <span class="title-text">Profil</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    <div class="profile-text">
-                        <p><strong>Student II roku Informatyki</strong>, intensywnie rozwijający się w kierunku <strong>frontend web developmentu</strong>. Posiadam solidne podstawy <strong>HTML5</strong> i <strong>CSS3</strong>, obecnie skupiam się głównie na pogłębianiu znajomości <strong>JavaScript</strong> — od manipulacji DOM, przez obsługę zdarzeń, po tworzenie interaktywnych aplikacji webowych.</p>
-                        <p>Uczę się poprzez praktykę — tworzę własne projekty dostępne publicznie na GitHub, co pozwala mi na budowanie realnych umiejętności i portfolio. W dalszej perspektywie planuję rozwój w kierunku <strong>React.js</strong> oraz poznanie podstaw backendu (<strong>PHP</strong>, <strong>MySQL</strong>).</p>
-                        <p>Poszukuję <strong>stażu lub junior pozycji</strong>, umożliwiających naukę od doświadczonych programistów oraz udział w komercyjnych projektach, gdzie będę mógł przekuć teorię w praktyczne rozwiązania.</p>
-                    </div>
-                </div>
+      <div class="content">
+        <div class="left-column">
+          <div class="section glass-card" id="profil">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-user"></i>
+              </div>
+              <span class="title-text">Profil</span>
+              <div class="title-line"></div>
+            </h2>
+            <div class="profile-text">
+              <p>
+                <strong>Student II roku Informatyki</strong>, intensywnie
+                rozwijający się w kierunku
+                <strong>frontend web developmentu</strong>. Posiadam solidne
+                podstawy <strong>HTML5</strong> i <strong>CSS3</strong>, obecnie
+                skupiam się głównie na pogłębianiu znajomości
+                <strong>JavaScript</strong>. Od manipulacji DOM, przez obsługę
+                zdarzeń, po tworzenie interaktywnych aplikacji webowych.
+              </p>
+              <p>
+                Uczę się poprzez praktykę, tworzę własne mini-projekty dostępne
+                publicznie na GitHub, co pozwala mi na budowanie realnych
+                umiejętności i portfolio. W dalszej perspektywie planuję rozwój
+                w kierunku <strong>React.js</strong> oraz poznanie podstaw
+                backendu (<strong>PHP</strong>, <strong>MySQL</strong>).
+              </p>
+              <p>
+                Poszukuję <strong>stażu lub pierwszej pracy</strong>,
+                umożliwiając naukę od doświadczonych programistów oraz udział w
+                komercyjnych projektach, gdzie będę mógł przekuć teorię w
+                praktyczne rozwiązania.
+              </p>
+            </div>
+          </div>
 
-                <div class="section glass-card" id="projekty">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <span class="title-text">Projekty</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">
-                                <i class="fas fa-calculator"></i>
-                                Kalkulator ECTS
-                            </h3>
-                            <div class="project-status">
-                                <span class="status-badge status-live">Live</span>
-                            </div>
-                        </div>
-                        
-                        <p class="project-description">
-                            Interaktywny kalkulator do obliczania średniej ważonej ocen z uwzględnieniem punktów ECTS. 
-                            Aplikacja pozwala na dodawanie przedmiotów, dynamiczne przeliczanie średniej oraz zarządzanie listą przedmiotów.
-                        </p>
-                        
-                        <div class="project-tech">
-                            <span class="tech-badge">
-                                <i class="fab fa-html5"></i>
-                                HTML5
-                            </span>
-                            <span class="tech-badge">
-                                <i class="fab fa-css3-alt"></i>
-                                CSS3
-                            </span>
-                            <span class="tech-badge">
-                                <i class="fab fa-js"></i>
-                                JavaScript
-                            </span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/luqaszkl/ECTS-kalkulator" target="_blank" rel="noopener noreferrer" class="project-link">
-                                <i class="fab fa-github"></i>
-                                <span>Kod źródłowy</span>
-                            </a>
-                            <a href="https://luqaszkl.github.io/ECTS-kalkulator/" target="_blank" rel="noopener noreferrer" class="project-link project-link-primary">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Zobacz Live</span>
-                            </a>
-                        </div>
-                    </div>
+          <div class="section glass-card" id="projekty">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-code"></i>
+              </div>
+              <span class="title-text">Projekty</span>
+              <div class="title-line"></div>
+            </h2>
 
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">
-                                <i class="fas fa-laptop-code"></i>
-                                Portfolio CV Website
-                            </h3>
-                            <div class="project-status">
-                                <span class="status-badge status-live">Live</span>
-                            </div>
-                        </div>
-                        
-                        <p class="project-description">
-                            Responsywna strona CV z nowoczesnym designem, animacjami i efektami glassmorphism. 
-                            Zbudowana od podstaw z czystym kodem HTML, CSS i JavaScript bez użycia frameworków.
-                        </p>
-                        
-                        <div class="project-tech">
-                            <span class="tech-badge">
-                                <i class="fab fa-html5"></i>
-                                HTML5
-                            </span>
-                            <span class="tech-badge">
-                                <i class="fab fa-css3-alt"></i>
-                                CSS3
-                            </span>
-                            <span class="tech-badge">
-                                <i class="fab fa-js"></i>
-                                JavaScript
-                            </span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/luqaszkl/CV" target="_blank" rel="noopener noreferrer" class="project-link">
-                                <i class="fab fa-github"></i>
-                                <span>Kod źródłowy</span>
-                            </a>
-                            <a href="https://luqaszkl.github.io/CV/" target="_blank" rel="noopener noreferrer" class="project-link project-link-primary">
-                                <i class="fas fa-external-link-alt"></i>
-                                <span>Zobacz Live</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="project-card">
+              <div class="project-header">
+                <h3 class="project-title">
+                  <i class="fas fa-calculator"></i>
+                  Kalkulator ECTS
+                </h3>
+              </div>
 
-                <div class="section glass-card" id="doswiadczenie">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <span class="title-text">Doświadczenie</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-position">Operator Maszyn</div>
-                            <div class="exp-date">2022 — 2023</div>
-                        </div>
-                        <div class="exp-company">
-                            <i class="fas fa-building"></i>
-                            Tymbark (MWS Sp. z o.o.), Olsztynek
-                        </div>
-                        <ul class="exp-list">
-                            <li><strong>Obsługa linii produkcyjnych:</strong> Praca z automatycznymi liniami rozlewniczymi (SIG Combidome, Krones) oraz usuwanie bieżących usterek.</li>
-                            <li><strong>Monitorowanie procesu:</strong> Kontrola parametrów pracy linii i zgodności z normami jakościowymi.</li>
-                            <li><strong>Praca proceduralna:</strong> Realizacja zadań zgodnie z instrukcjami technicznymi i szybkie reagowanie na błędy.</li>
-                        </ul>
-                    </div>
+              <p class="project-description">
+                Interaktywny kalkulator do obliczania średniej ważonej ocen z
+                uwzględnieniem punktów ECTS. Aplikacja pozwala na dodawanie
+                przedmiotów, dynamiczne przeliczanie średniej oraz zarządzanie
+                listą przedmiotów.
+              </p>
 
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-position">Koordynator Kompletacji</div>
-                            <div class="exp-date">2020 — 2022</div>
-                        </div>
-                        <div class="exp-company">
-                            <i class="fas fa-building"></i>
-                            VidaXL, Venlo, Holandia
-                        </div>
-                        <ul class="exp-list">
-                            <li><strong>Koordynacja zespołu:</strong> Organizacja pracy zespołu, przydzielanie zadań oraz nadzór nad realizacją zadań operacyjnych.</li>
-                            <li><strong>Standardy pracy:</strong> Wdrażanie nowych pracowników oraz kontrola przestrzegania procedur BHP i jakości pracy.</li>
-                        </ul>
-                    </div>
+              <div class="project-tech">
+                <span class="tech-badge">
+                  <i class="fab fa-html5"></i>
+                  HTML5
+                </span>
+                <span class="tech-badge">
+                  <i class="fab fa-css3-alt"></i>
+                  CSS3
+                </span>
+                <span class="tech-badge">
+                  <i class="fab fa-js"></i>
+                  JavaScript
+                </span>
+              </div>
 
-                    <div class="experience-item">
-                        <div class="exp-header">
-                            <div class="exp-position">Praktykant Produkcyjny</div>
-                            <div class="exp-date">2018</div>
-                        </div>
-                        <div class="exp-company">
-                            <i class="fas fa-building"></i>
-                            Tymbark (MWS Sp. z o.o.), Olsztynek
-                        </div>
-                        <ul class="exp-list">
-                            <li><strong>Wsparcie produkcji:</strong> Obsługa procesów pomocniczych na linii rozlewniczej i pakującej.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <span class="title-text">Edukacja</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    
-                    <div class="education-item">
-                        <div class="edu-header">
-                            <div class="edu-degree">Informatyka — Inżynieria Systemów Informatycznych</div>
-                            <div class="edu-date">2024 — obecnie</div>
-                        </div>
-                        <div class="edu-school">
-                            <i class="fas fa-university"></i>
-                            Uniwersytet Warmińsko-Mazurski, Olsztyn
-                        </div>
-                        <div class="edu-desc">
-                            <p><strong>Kierunek:</strong> Inżynieria systemów informatycznych</p>
-                        </div>
-                    </div>
-
-                    <div class="education-item">
-                        <div class="edu-header">
-                            <div class="edu-degree">Technik Technologii Żywności</div>
-                            <div class="edu-date">2016 — 2020</div>
-                        </div>
-                        <div class="edu-school">
-                            <i class="fas fa-school"></i>
-                            Zespół Szkół im. K. C. Mrongowiusza w Olsztynku
-                        </div>
-                        <div class="edu-desc">
-                            <p><strong>Specjalizacja:</strong> Nadzór nad procesami produkcji spożywczej</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <span class="title-text">Certyfikaty</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    <ul class="cert-list">
-                        <li><strong>ECDL Profile MS Office</strong> — Polskie Towarzystwo Informatyczne</li>
-                        <li><strong>SPC.02 - Produkcja wyrobów spożywczych z wykorzystaniem maszyn i urządzeń</strong> — Technik technologii żywności</li>
-                        <li><strong>SPC.07 - Organizacja i nadzorowanie produkcji wyrobów spożywczych</strong> — Technik technologii żywności</li>
-                        <li><strong>Analiza Sensoryczna Żywności</strong> — J.S. Hamilton Poland Sp. z o.o.</li>
-                        <li><strong>Kurs Carvingu</strong> — Galicyjska Szkoła Smaku</li>
-                    </ul>
-                </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/luqaszkl/ECTS-kalkulator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i>
+                  <span>Kod źródłowy</span>
+                </a>
+                <a
+                  href="https://luqaszkl.github.io/ECTS-kalkulator/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link project-link-primary"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Kalkulator ECTS</span>
+                </a>
+              </div>
             </div>
 
-            <div class="right-column" id="umiejetnosci">
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-tools"></i>
-                        </div>
-                        <span class="title-text">Techstack</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-html5"></i>
-                                <strong>HTML5</strong>
-                            </div>
-                            <div class="skill-level">Średnio-zaawansowany</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 70%"></div>
-                        </div>
-                    </div>
+            <div class="project-card">
+              <div class="project-header">
+                <h3 class="project-title">
+                  <i class="fas fa-laptop-code"></i>
+                  Portfolio CV Website
+                </h3>
+                
+              </div>
 
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-css3-alt"></i>
-                                <strong>CSS3</strong>
-                            </div>
-                            <div class="skill-level">Średnio-zaawansowany</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 70%"></div>
-                        </div>
-                    </div>
+              <p class="project-description">
+                Responsywna strona CV z nowoczesnym designem, animacjami i
+                efektami glassmorphism. Zbudowana od podstaw z czystym kodem
+                HTML, CSS i JavaScript.
+              </p>
 
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-js"></i>
-                                <strong>JavaScript</strong>
-                            </div>
-                            <div class="skill-level">Podstawowy-średni</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 45%"></div>
-                        </div>
-                    </div>
+              <div class="project-tech">
+                <span class="tech-badge">
+                  <i class="fab fa-html5"></i>
+                  HTML5
+                </span>
+                <span class="tech-badge">
+                  <i class="fab fa-css3-alt"></i>
+                  CSS3
+                </span>
+                <span class="tech-badge">
+                  <i class="fab fa-js"></i>
+                  JavaScript
+                </span>
+              </div>
 
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-python"></i>
-                                <strong>Python</strong>
-                            </div>
-                            <div class="skill-level">Średnio-zaawansowany</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 65%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-java"></i>
-                                <strong>Java</strong>
-                            </div>
-                            <div class="skill-level">Średnio-zaawansowany</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 65%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fas fa-file-excel"></i>
-                                <strong>MS Office</strong>
-                            </div>
-                            <div class="skill-level">Średnio-zaawansowany</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 70%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-book-reader"></i>
-                        </div>
-                        <span class="title-text">Obecnie Zgłębiam</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-js"></i>
-                                <strong>JavaScript (zaawansowany)</strong>
-                            </div>
-                            <div class="skill-level">W trakcie nauki</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 50%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-github"></i>
-                                <strong>Git / GitHub</strong>
-                            </div>
-                            <div class="skill-level">W trakcie nauki</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 40%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <div class="skill-name">
-                                <i class="fab fa-linux"></i>
-                                <strong>Linux</strong>
-                            </div>
-                            <div class="skill-level">W trakcie nauki</div>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" style="--skill-width: 30%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <span class="title-text">Plany Rozwoju</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    <div class="plan-list">
-                        <div class="plan-item">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Frontend:</strong>
-                                <span>React.js, TypeScript</span>
-                            </div>
-                        </div>
-                        <div class="plan-item">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Backend:</strong>
-                                <span>PHP, MySQL</span>
-                            </div>
-                        </div>
-                        <div class="plan-item">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>Bazy danych:</strong>
-                                <span>Projektowanie i optymalizacja</span>
-                            </div>
-                        </div>
-                        <div class="plan-item">
-                            <i class="fas fa-check-circle"></i>
-                            <div>
-                                <strong>DevOps:</strong>
-                                <span>Docker, CI/CD</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <span class="title-text">Języki</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    <div class="lang-item">
-                        <i class="fas fa-flag"></i>
-                        <div>
-                            <strong>Polski</strong>
-                            <span>Native</span>
-                        </div>
-                    </div>
-                    <div class="lang-item">
-                        <i class="fas fa-flag"></i>
-                        <div>
-                            <strong>Angielski</strong>
-                            <span>B1/B2</span>
-                        </div>
-                    </div>
-                    <div class="lang-item">
-                        <i class="fas fa-flag"></i>
-                        <div>
-                            <strong>Niemiecki</strong>
-                            <span>A2</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="section glass-card">
-                    <h2 class="section-title">
-                        <div class="icon-wrapper">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <span class="title-text">Zainteresowania</span>
-                        <div class="title-line"></div>
-                    </h2>
-                    <div class="interests-grid">
-                        <div class="interest-badge">
-                            <i class="fas fa-code"></i>
-                            <span>Web Dev</span>
-                        </div>
-                        <div class="interest-badge">
-                            <i class="fas fa-gamepad"></i>
-                            <span>Gaming</span>
-                        </div>
-                        <div class="interest-badge">
-                            <i class="fab fa-unity"></i>
-                            <span>Unity</span>
-                        </div>
-                        <div class="interest-badge">
-                            <i class="fas fa-dumbbell"></i>
-                            <span>Boks</span>
-                        </div>
-                        <div class="interest-badge">
-                            <i class="fas fa-utensils"></i>
-                            <span>Gotowanie</span>
-                        </div>
-                    </div>
-                </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/luqaszkl/CV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i>
+                  <span>Kod źródłowy</span>
+                </a>
+                <a
+                  href="https://luqaszkl.github.io/CV/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link project-link-primary"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>CV</span>
+                </a>
+              </div>
             </div>
+          </div>
+
+          <div class="section glass-card" id="doswiadczenie">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <span class="title-text">Doświadczenie</span>
+              <div class="title-line"></div>
+            </h2>
+
+            <div class="experience-item">
+              <div class="exp-header">
+                <div class="exp-position">Operator Maszyn</div>
+                <div class="exp-date">2022 — 2023</div>
+              </div>
+              <div class="exp-company">
+                <i class="fas fa-building"></i>
+                Tymbark (MWS Sp. z o.o.), Olsztynek
+              </div>
+              <ul class="exp-list">
+                <li>
+                  <strong>Obsługa linii produkcyjnych:</strong> Praca z
+                  automatycznymi liniami rozlewniczymi (SIG Combidome, Krones)
+                  oraz usuwanie bieżących usterek.
+                </li>
+                <li>
+                  <strong>Monitorowanie procesu:</strong> Kontrola parametrów
+                  pracy linii i zgodności z normami jakościowymi.
+                </li>
+                <li>
+                  <strong>Praca proceduralna:</strong> Realizacja zadań zgodnie
+                  z instrukcjami technicznymi i szybkie reagowanie na błędy.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experience-item">
+              <div class="exp-header">
+                <div class="exp-position">Koordynator Kompletacji</div>
+                <div class="exp-date">2020 — 2022</div>
+              </div>
+              <div class="exp-company">
+                <i class="fas fa-building"></i>
+                VidaXL, Venlo, Holandia
+              </div>
+              <ul class="exp-list">
+                <li>
+                  <strong>Koordynacja zespołu:</strong> Organizacja pracy
+                  zespołu, przydzielanie zadań oraz nadzór nad realizacją zadań
+                  operacyjnych.
+                </li>
+                <li>
+                  <strong>Standardy pracy:</strong> Wdrażanie nowych pracowników
+                  oraz kontrola przestrzegania procedur BHP i jakości pracy.
+                </li>
+              </ul>
+            </div>
+
+            <div class="experience-item">
+              <div class="exp-header">
+                <div class="exp-position">Praktykant Produkcyjny</div>
+                <div class="exp-date">2018</div>
+              </div>
+              <div class="exp-company">
+                <i class="fas fa-building"></i>
+                Tymbark (MWS Sp. z o.o.), Olsztynek
+              </div>
+              <ul class="exp-list">
+                <li>
+                  <strong>Wsparcie produkcji:</strong> Obsługa procesów
+                  pomocniczych na linii rozlewniczej i pakującej.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <span class="title-text">Edukacja</span>
+              <div class="title-line"></div>
+            </h2>
+
+            <div class="education-item">
+              <div class="edu-header">
+                <div class="edu-degree">
+                  Informatyka — Inżynieria Systemów Informatycznych
+                </div>
+                <div class="edu-date">2024 — obecnie</div>
+              </div>
+              <div class="edu-school">
+                <i class="fas fa-university"></i>
+                Uniwersytet Warmińsko-Mazurski, Olsztyn
+              </div>
+              <div class="edu-desc">
+                <p>
+                  <strong>Kierunek:</strong> Inżynieria systemów informatycznych
+                </p>
+              </div>
+            </div>
+
+            <div class="education-item">
+              <div class="edu-header">
+                <div class="edu-degree">Technik Technologii Żywności</div>
+                <div class="edu-date">2016 — 2020</div>
+              </div>
+              <div class="edu-school">
+                <i class="fas fa-school"></i>
+                Zespół Szkół im. K. C. Mrongowiusza w Olsztynku
+              </div>
+              <div class="edu-desc">
+                <p>
+                  <strong>Specjalizacja:</strong> Nadzór nad procesami produkcji
+                  spożywczej
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <span class="title-text">Certyfikaty</span>
+              <div class="title-line"></div>
+            </h2>
+            <ul class="cert-list">
+              <li>
+                <strong>ECDL Profile MS Office</strong> — Polskie Towarzystwo
+                Informatyczne
+              </li>
+              <li>
+                <strong
+                  >SPC.02 - Produkcja wyrobów spożywczych z wykorzystaniem
+                  maszyn i urządzeń</strong
+                >
+                — Technik technologii żywności
+              </li>
+              <li>
+                <strong
+                  >SPC.07 - Organizacja i nadzorowanie produkcji wyrobów
+                  spożywczych</strong
+                >
+                — Technik technologii żywności
+              </li>
+              <li>
+                <strong>Analiza Sensoryczna Żywności</strong> — J.S. Hamilton
+                Poland Sp. z o.o.
+              </li>
+              <li><strong>Kurs Carvingu</strong> — Galicyjska Szkoła Smaku</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer glass-card">
-            <i class="fas fa-shield-alt"></i>
-            WYRAŻAM ZGODĘ NA PRZETWARZANIE MOICH DANYCH OSOBOWYCH DLA POTRZEB NIEZBĘDNYCH DO REALIZACJI PROCESU REKRUTACJI (ZGODNIE Z USTAWĄ Z DNIA 10 MAJA 2018 ROKU O OCHRONIE DANYCH OSOBOWYCH (DZ. USTAW Z 2018, POZ. 1000) ORAZ ZGODNIE Z ROZPORZĄDZENIEM PARLAMENTU EUROPEJSKIEGO I RADY (UE) 2016/679 Z DNIA 27 KWIETNIA 2016 R. W SPRAWIE OCHRONY OSÓB FIZYCZNYCH W ZWIĄZKU Z PRZETWARZANIEM DANYCH OSOBOWYCH I W SPRAWIE SWOBODNEGO PRZEPŁYWU TAKICH DANYCH ORAZ UCHYLENIA DYREKTYWY 95/46/WE (OGÓLNE ROZPORZĄDZENIE O OCHRONIE DANYCH).
+        <div class="right-column" id="umiejetnosci">
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-tools"></i>
+              </div>
+              <span class="title-text">Techstack</span>
+              <div class="title-line"></div>
+            </h2>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-html5"></i>
+                  <strong>HTML5</strong>
+                </div>
+                <div class="skill-level">Średnio-zaawansowany</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-css3-alt"></i>
+                  <strong>CSS3</strong>
+                </div>
+                <div class="skill-level">Średnio-zaawansowany</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 70%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-js"></i>
+                  <strong>JavaScript</strong>
+                </div>
+                <div class="skill-level">Podstawowy</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 40%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-python"></i>
+                  <strong>Python</strong>
+                </div>
+                <div class="skill-level">Średnio-zaawansowany</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 65%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-java"></i>
+                  <strong>Java</strong>
+                </div>
+                <div class="skill-level">Średnio-zaawansowany</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 65%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fas fa-file-excel"></i>
+                  <strong>MS Office</strong>
+                </div>
+                <div class="skill-level">Średnio-zaawansowany</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-book-reader"></i>
+              </div>
+              <span class="title-text">Obecnie Zgłębiam</span>
+              <div class="title-line"></div>
+            </h2>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-js"></i>
+                  <strong>JavaScript</strong>
+                </div>
+                <div class="skill-level">W trakcie nauki</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 50%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-github"></i>
+                  <strong>Git / GitHub</strong>
+                </div>
+                <div class="skill-level">W trakcie nauki</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 40%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <div class="skill-name">
+                  <i class="fab fa-linux"></i>
+                  <strong>Linux</strong>
+                </div>
+                <div class="skill-level">W trakcie nauki</div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" style="--skill-width: 30%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <span class="title-text">Plany Rozwoju</span>
+              <div class="title-line"></div>
+            </h2>
+            <div class="plan-list">
+              <div class="plan-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <strong>Frontend:</strong>
+                  <span>React.js, TypeScript</span>
+                </div>
+              </div>
+              <div class="plan-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <strong>Backend:</strong>
+                  <span>PHP, MySQL</span>
+                </div>
+              </div>
+              <div class="plan-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <strong>Bazy danych:</strong>
+                  <span>Projektowanie i optymalizacja</span>
+                </div>
+              </div>
+              <div class="plan-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <strong>DevOps:</strong>
+                  <span>Docker, CI/CD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-globe"></i>
+              </div>
+              <span class="title-text">Języki</span>
+              <div class="title-line"></div>
+            </h2>
+            <div class="lang-item">
+              <i class="fas fa-flag"></i>
+              <div>
+                <strong>Polski</strong>
+                <span>Native</span>
+              </div>
+            </div>
+            <div class="lang-item">
+              <i class="fas fa-flag"></i>
+              <div>
+                <strong>Angielski</strong>
+                <span>B1/B2</span>
+              </div>
+            </div>
+            <div class="lang-item">
+              <i class="fas fa-flag"></i>
+              <div>
+                <strong>Niemiecki</strong>
+                <span>A2</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="section glass-card">
+            <h2 class="section-title">
+              <div class="icon-wrapper">
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="title-text">Zainteresowania</span>
+              <div class="title-line"></div>
+            </h2>
+            <div class="interests-grid">
+              <div class="interest-badge">
+                <i class="fas fa-code"></i>
+                <span>Web Dev</span>
+              </div>
+              <div class="interest-badge">
+                <i class="fas fa-gamepad"></i>
+                <span>Gaming</span>
+              </div>
+              <div class="interest-badge">
+                <i class="fab fa-unity"></i>
+                <span>Unity</span>
+              </div>
+              <div class="interest-badge">
+                <i class="fas fa-dumbbell"></i>
+                <span>Boks</span>
+              </div>
+              <div class="interest-badge">
+                <i class="fas fa-utensils"></i>
+                <span>Gotowanie</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="footer glass-card">
+        <i class="fas fa-shield-alt"></i>
+        WYRAŻAM ZGODĘ NA PRZETWARZANIE MOICH DANYCH OSOBOWYCH DLA POTRZEB
+        NIEZBĘDNYCH DO REALIZACJI PROCESU REKRUTACJI (ZGODNIE Z USTAWĄ Z DNIA 10
+        MAJA 2018 ROKU O OCHRONIE DANYCH OSOBOWYCH (DZ. USTAW Z 2018, POZ. 1000)
+        ORAZ ZGODNIE Z ROZPORZĄDZENIEM PARLAMENTU EUROPEJSKIEGO I RADY (UE)
+        2016/679 Z DNIA 27 KWIETNIA 2016 R. W SPRAWIE OCHRONY OSÓB FIZYCZNYCH W
+        ZWIĄZKU Z PRZETWARZANIEM DANYCH OSOBOWYCH I W SPRAWIE SWOBODNEGO
+        PRZEPŁYWU TAKICH DANYCH ORAZ UCHYLENIA DYREKTYWY 95/46/WE (OGÓLNE
+        ROZPORZĄDZENIE O OCHRONIE DANYCH).
+      </div>
     </div>
 
     <button class="scroll-to-top" id="scrollToTop">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
